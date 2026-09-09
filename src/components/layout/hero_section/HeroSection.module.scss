@@ -1,0 +1,16 @@
+.container {
+
+    .content {
+        color: $white;
+
+    }
+
+    .items {
+        margin-top: $space-4;
+
+        @include desktop(){
+            display: flex;
+            gap: $space-2;
+        }
+    }
+}

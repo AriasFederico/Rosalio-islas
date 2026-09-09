@@ -1,0 +1,28 @@
+.card {
+    margin-bottom: $space-2;
+    background-color: rgba(255, 255, 255, 0.774);
+    // background-color: $white;
+    padding: $space-3;
+    max-width: 450px;
+    border-radius: $radius-sm;
+
+    @include desktop(){
+        margin: 0;
+    }
+
+    .iconContainer {
+        background-color: $color-primary;
+        color: $white;
+        width: fit-content;
+        padding: .4rem;
+        border-radius: $radius-sm;
+    }
+
+    .title,
+    .text, .cta {margin-top: $space-2;}
+
+    .text {
+        color: $foreground-muted;
+        font-size: $font-sm;
+    }
+}

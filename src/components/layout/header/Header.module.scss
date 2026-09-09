@@ -1,0 +1,94 @@
+.header {
+  // position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 500;
+  padding: $space-2 $space-2;
+  background-color: $color-primary;
+  position: relative;
+
+  .container {
+    max-width: 1240px;
+    // tamaño variable
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .logo {
+    font-size: $font-xl;
+    font-weight: 700;
+    color: $white;
+
+    &::after {
+      // content: ' asd';
+    }
+  }
+  
+  .nav {
+    max-height: 0;
+    overflow: hidden;
+    
+    @include desktop(){
+      max-height: auto;
+      overflow: visible;
+      display: flex;
+      align-items: center;
+      gap: $space-3;    
+    }
+  }    
+  
+  .navOpen {
+    // background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $space-4;
+    max-height: 500px;
+    padding: 2rem 0;
+    background-color: $color-primary;
+    color: white;
+    // border-bottom: 1px solid $color-border;
+    transition: $transition-normal;
+    position: absolute;
+    top: 3.9rem;
+    left: 0;
+    width: 100%;
+  }
+
+  .link {
+    font-size: $font-sm;
+    font-weight: 500;
+    color: $white;
+  }
+
+
+  .cta {
+    display: none;
+
+    @include desktop(){
+      display: block;
+    }
+  }
+
+  .ctaMobile {
+    @include desktop(){
+      display: none;
+    }
+  }
+
+  .burger {    
+    color: $white;
+
+    .icon {
+      width: 1.7rem;
+      height: 1.7rem;
+    }
+
+    @include desktop(){
+      display: none;
+    }
+  }
+}

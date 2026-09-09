@@ -8,4 +8,13 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
+  css: {
+    preprocessorOptions: {
+      scss: {
+        // Aquí le dices a Vite que "inyecte" el archivo en cada .scss
+        // Asegúrate de poner la ruta correcta hacia tu archivo
+        additionalData: `@use "/src/_config.scss" as *;`,
+      },
+    },
+  },
 })
