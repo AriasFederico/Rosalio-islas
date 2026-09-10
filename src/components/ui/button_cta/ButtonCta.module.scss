@@ -23,11 +23,11 @@
 
 .secondary {
     color: $white;
-    background-color: $foreground;
+    background-color: $color-primary;
 
     &:hover {
         color: $foreground;
-        background-color: $white;
+        background-color: $color-primary;
     }
 }
 

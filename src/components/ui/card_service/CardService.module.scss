@@ -1,0 +1,44 @@
+.card {
+    background-color: $white;
+    padding: $space-3;
+    border-radius: $radius-sm;
+    margin-bottom: $space-2;
+    transition: $transition-normal;
+
+    &:hover {
+        transform: translateY(-20px);
+        box-shadow: $shadow-md;
+
+        .iconContainer {
+            color: $white;
+            background-color: $color-primary;
+        }
+    }
+
+    
+    @include desktop(){
+        margin: 0;
+    }
+    
+    .iconContainer {
+        transition: $transition-normal;
+        background-color: $color-primary-muted;
+        color: $color-primary;
+        width: fit-content;
+        padding: .4rem;
+        border-radius: $radius-sm;
+    }
+
+    .title, .desc {
+        margin-top: $space-2;
+    }
+
+    .cta {
+        margin-top: $space-3;
+    }
+
+    .desc {
+        color: $foreground-muted;
+        font-size: $font-sm;
+    }
+}

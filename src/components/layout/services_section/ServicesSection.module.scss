@@ -1,0 +1,27 @@
+.container {
+    .header{
+        text-align: center;
+    
+        .subtitle {
+            margin-top: $space-1;
+            color: $foreground-muted;
+        }
+    }
+    
+    .items {
+        margin-top: $space-4;
+
+        @include desktop(){
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: $space-2;
+        }
+    }
+
+    .cta {
+        margin-top: $space-6;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

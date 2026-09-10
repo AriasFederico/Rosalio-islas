@@ -9,10 +9,11 @@
   &.light {background-color: $white;}
   &.soft {background-color: $bg-soft;}
   &.bgImage {
-    background-image: url('https://images.unsplash.com/photo-1746021375258-79fa1464ca1f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('https://plus.unsplash.com/premium_photo-1676320103087-4aec0a09088f?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-repeat: none;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     
     &::after {
       content: '';

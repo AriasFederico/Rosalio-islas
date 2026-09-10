@@ -10,6 +10,12 @@
         margin: 0;
     }
 
+    .header {
+        display: flex;
+        align-items: center;
+        gap: $space-1;
+    }
+
     .iconContainer {
         background-color: $color-primary;
         color: $white;
@@ -18,10 +24,9 @@
         border-radius: $radius-sm;
     }
 
-    .title,
-    .text, .cta {margin-top: $space-2;}
 
-    .text {
+    .text, .cta {
+        margin-top: $space-2;
         color: $foreground-muted;
         font-size: $font-sm;
     }

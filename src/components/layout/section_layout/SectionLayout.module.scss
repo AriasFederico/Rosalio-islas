@@ -2,6 +2,7 @@
     padding: $space-9 0;
     &.light {background-color: $white;}
     &.soft {background-color: $bg-soft;}
+    &.dark {background-color: $bg-dark}
 
     .container {
         @include container;

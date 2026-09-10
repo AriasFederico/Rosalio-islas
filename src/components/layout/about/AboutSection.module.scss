@@ -1,0 +1,16 @@
+.container {
+    max-width: 100%;
+
+    .header {
+        color: $white;
+    }
+
+    .subtitle {
+        margin-top: $space-2;
+    }
+
+    .items {
+        margin-top: $space-3;
+        overflow: hidden;
+    }
+}
