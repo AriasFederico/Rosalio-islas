@@ -1,6 +1,18 @@
-import { BsCalendar2Date, BsCircle } from 'react-icons/bs';
+import {
+  BsArrowDownShort,
+  BsArrowUpShort,
+  BsCalendar2Date,
+  BsCircle,
+  BsWhatsapp,
+} from 'react-icons/bs';
+
+import { FcGoogle } from 'react-icons/fc';
 
 export const iconMap = {
-  message: BsCalendar2Date,
-  icon: BsCircle,
+  icon: BsCircle, // delete
+  message: BsWhatsapp,
+  google: FcGoogle,
+
+  arrowDown: BsArrowDownShort,
+  arrowUp: BsArrowUpShort,
 };

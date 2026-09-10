@@ -6,3 +6,5 @@ export const SectionLayout = ({ children, bgVariant, direction }) => {
         </section>
     )
 }
+
+// boton terciario necesario.

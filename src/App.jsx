@@ -3,13 +3,15 @@ import {
   AboutSection,
   Header,
   HeroSection,
+  ReviewsSection,
   ServicesSection,
   TeamSection,
+
 } from './components/layout/';
 import { landing_data } from './data/data';
 
 function App() {
-  const { header, hero, services, team, about } = landing_data;
+  const { header, hero, services, team, about, reviews_section } = landing_data;
 
   return (
     <>
@@ -18,6 +20,7 @@ function App() {
       <ServicesSection data={services} />
       <TeamSection data={team} />
       <AboutSection data={about} />
+      <ReviewsSection data={reviews_section} />
     </>
   );
 }

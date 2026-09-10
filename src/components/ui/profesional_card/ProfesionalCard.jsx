@@ -20,7 +20,8 @@ export const ProfesionalCard = ({ image, name, speciality, cta }) => {
             label={cta.label}
             icon={cta.icon}
             href={cta.href}
-            variant={cta.variant}
+            variant={'primary'}
+            size='sm'
           />
         </div>
       </div>

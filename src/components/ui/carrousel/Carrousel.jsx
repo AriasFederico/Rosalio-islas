@@ -1,6 +1,6 @@
-import styles from './Carrousel.module.scss';
-import { useRef } from 'react'
+import { useRef } from 'react';
 import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
+import styles from './Carrousel.module.scss';
 
 export const Carrousel = ({ data }) => {
   const carrouselRef = useRef(null);
@@ -27,12 +27,20 @@ export const Carrousel = ({ data }) => {
   return (
     <div className={styles.container}>
       <div className={styles.buttons}>
-        <button onClick={() => scroll('left')} aria-label="Anterior" className={styles.arrow}>
-          <BsArrowLeftShort size={30} />
+        <button
+          onClick={() => scroll('left')}
+          aria-label='Anterior'
+          className={styles.arrow}
+        >
+          <BsArrowLeftShort size={22} />
         </button>
 
-        <button onClick={() => scroll('right')} aria-label="Siguiente" className={styles.arrow}>
-          <BsArrowRightShort size={30} />
+        <button
+          onClick={() => scroll('right')}
+          aria-label='Siguiente'
+          className={styles.arrow}
+        >
+          <BsArrowRightShort size={22} />
         </button>
       </div>
       <div className={styles.carrousel} ref={carrouselRef}>

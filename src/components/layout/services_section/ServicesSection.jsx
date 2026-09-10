@@ -54,7 +54,7 @@ export const ServicesSection = ({ data }) => {
           <ButtonCta
             label={isExpanded ? 'Mostrar menos' : 'Mostrar más'}
             size='sm'
-            icon={'icon'}
+            icon={isExpanded ? 'arrowUp' : 'arrowDown'}
             onClick={toggleShowMore}
           />
         </div>

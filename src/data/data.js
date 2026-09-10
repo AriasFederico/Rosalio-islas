@@ -85,10 +85,9 @@ export const landing_data = {
         title: 'Título del servicio',
         desc: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         cta: {
-          icon: 'icon',
+          icon: 'message',
           label: 'Consultar por este servicio',
           href: '#',
-          variant: 'secondary',
         },
         delay: '.15',
       },
@@ -98,10 +97,9 @@ export const landing_data = {
         title: 'Título del servicio',
         desc: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         cta: {
-          icon: 'icon',
+          icon: 'message',
           label: 'Consultar por este servicio',
           href: '#',
-          variant: 'secondary',
         },
         delay: '.15',
       },
@@ -111,10 +109,9 @@ export const landing_data = {
         title: 'Título del servicio',
         desc: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         cta: {
-          icon: 'icon',
+          icon: 'message',
           label: 'Consultar por este servicio',
           href: '#',
-          variant: 'secondary',
         },
         delay: '.15',
       },
@@ -124,10 +121,9 @@ export const landing_data = {
         title: 'Título del servicio',
         desc: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         cta: {
-          icon: 'icon',
+          icon: 'message',
           label: 'Consultar por este servicio',
           href: '#',
-          variant: 'secondary',
         },
         delay: '.25',
       },
@@ -137,10 +133,9 @@ export const landing_data = {
         title: 'Título del servicio',
         desc: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         cta: {
-          icon: 'icon',
+          icon: 'message',
           label: 'Consultar por este servicio',
           href: '#',
-          variant: 'secondary',
         },
         delay: '.25',
       },
@@ -150,10 +145,9 @@ export const landing_data = {
         title: 'Título del servicio',
         desc: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         cta: {
-          icon: 'icon',
+          icon: 'message',
           label: 'Consultar por este servicio',
           href: '#',
-          variant: 'secondary',
         },
         delay: '.25',
       },
@@ -166,10 +160,10 @@ export const landing_data = {
         title: 'Título del servicio',
         desc: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         cta: {
-          icon: 'icon',
+          icon: 'message',
           label: 'Consultar por este servicio',
           href: '#',
-          variant: 'secondary',
+          variant: 'tertiary',
         },
         delay: '.15',
       },
@@ -179,10 +173,10 @@ export const landing_data = {
         title: 'Título del servicio',
         desc: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         cta: {
-          icon: 'icon',
+          icon: 'message',
           label: 'Consultar por este servicio',
           href: '#',
-          variant: 'secondary',
+          variant: 'tertiary',
         },
         delay: '.15',
       },
@@ -192,15 +186,15 @@ export const landing_data = {
         title: 'Título del servicio',
         desc: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         cta: {
-          icon: 'icon',
+          icon: 'message',
           label: 'Consultar por este servicio',
           href: '#',
-          variant: 'secondary',
+          variant: 'tertiary',
         },
         delay: '.15',
       },
     ],
-    cta: { icon: '', label: 'Mostrar más', variant: 'secondary' },
+    cta: { icon: '', label: 'Mostrar más', variant: 'tertiary' },
   },
 
   team: {
@@ -216,10 +210,9 @@ export const landing_data = {
         name: 'Lic. Nombre Apellido',
         speciality: 'Rol del profesional',
         cta: {
-          icon: 'icon',
+          icon: 'message',
           label: 'Reservar turno',
           href: '#',
-          variant: 'secondary',
         },
       },
       {
@@ -231,10 +224,9 @@ export const landing_data = {
         name: 'Lic. Nombre Apellido',
         speciality: 'Rol del profesional',
         cta: {
-          icon: 'icon',
+          icon: 'message',
           label: 'Reservar turno',
           href: '#',
-          variant: 'secondary',
         },
       },
       {
@@ -246,10 +238,9 @@ export const landing_data = {
         name: 'Lic. Nombre Apellido',
         speciality: 'Rol del profesional',
         cta: {
-          icon: 'icon',
+          icon: 'message',
           label: 'Reservar turno',
           href: '#',
-          variant: 'secondary',
         },
       },
     ],
@@ -276,5 +267,43 @@ export const landing_data = {
         alt: '3',
       },
     ],
+  },
+
+  reviews_section: {
+    badge: 'Opiniones de Google',
+    title: 'Opiniones',
+    stars: 5,
+    rating: '0.0',
+    text: '· 0 opiniones',
+
+    items: [
+      {
+        id: 1,
+        name: 'Nombre Apellido',
+        rating: 5,
+        review:
+          'Opinión de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+      },
+      {
+        id: 2,
+        name: 'Nombre Apellido',
+        rating: 5,
+        review:
+          'Opinión de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+      },
+      {
+        id: 3,
+        name: 'Nombre Apellido',
+        rating: 5,
+        review:
+          'Opinión de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+      },
+    ],
+
+    cta: {
+      label: 'Ver todas las opiniones en Google',
+      href: '', // link a google coments
+      variant: '',
+    },
   },
 };
