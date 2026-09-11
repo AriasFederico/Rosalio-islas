@@ -18,7 +18,7 @@ export const ServicesSection = ({ data }) => {
   };
 
   return (
-    <SectionLayout bgVariant={'soft'}>
+    <SectionLayout bgVariant={'soft'} id={'services'}>
       <div className={styles.container}>
         <div className={styles.header}>
           <h2 className={styles.title}>{title}</h2>

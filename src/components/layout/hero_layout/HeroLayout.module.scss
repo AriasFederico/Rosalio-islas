@@ -25,7 +25,7 @@
       width: 100%;
       /* El gradiente: empieza sólido, se aclara al medio y se vuelve muy transparente al final */
       background: linear-gradient(
-        to right, 
+        // to right, 
         rgba($bg-dark, 0.35) 100%   /* to-background/40 */
         );
       }

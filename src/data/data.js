@@ -26,8 +26,8 @@ export const landing_data = {
 
     nav_links: [
       { id: 'services', label: 'Servicios', href: '#services' },
-      { id: 'about', label: 'Ubicación', href: '#about' },
-      { id: 'location', label: 'Opiniones', href: '#location' },
+      { id: 'reviews', label: 'Opiniones', href: '#reviews' },
+      { id: 'location', label: 'Ubicación', href: '#location' },
     ],
     cta: {
       icon: 'message',
@@ -274,7 +274,7 @@ export const landing_data = {
     title: 'Opiniones',
     stars: 5,
     rating: '0.0',
-    text: '· 0 opiniones',
+    text: '· 0 reseñas',
 
     items: [
       {
@@ -305,5 +305,64 @@ export const landing_data = {
       href: '', // link a google coments
       variant: '',
     },
+  },
+
+  cta_section: {
+    title: 'Titulo',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+    cta: [
+      {
+        icon: 'message',
+        label: 'Reservar turno',
+        variant: 'secondary',
+      },
+      {
+        icon: 'message',
+        label: 'Ubicación',
+        variant: '',
+      },
+    ],
+  },
+
+  faq_section: {
+    title: 'Preguntas frecuentes',
+
+    items: [
+      {
+        quest: 'Pregunta de referencia',
+        response:
+          'Respuesta de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      },
+      {
+        quest: 'Pregunta de referencia',
+        response:
+          'Respuesta de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      },
+      {
+        quest: 'Pregunta de referencia',
+        response:
+          'Respuesta de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      },
+      {
+        quest: 'Pregunta de referencia',
+        response:
+          'Respuesta de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      },
+      {
+        quest: 'Pregunta de referencia',
+        response:
+          'Respuesta de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      },
+      {
+        quest: 'Pregunta de referencia',
+        response:
+          'Respuesta de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      },
+      {
+        quest: 'Pregunta de referencia',
+        response:
+          'Respuesta de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      },
+    ],
   },
 };
