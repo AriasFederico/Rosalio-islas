@@ -10,6 +10,7 @@ import {
   ReviewsSection,
   ServicesSection,
   TeamSection,
+  Footer
 } from './components/layout/';
 import { landing_data } from './data/data';
 
@@ -24,7 +25,8 @@ function App() {
     cta_section,
     faq_section,
     coverage_section,
-    location_section
+    location_section,
+    footer
   } = landing_data;
 
   return (
@@ -39,7 +41,7 @@ function App() {
       <CtaSection data={cta_section} />
       <Coverage data={coverage_section} />
       <LocationSection data={location_section} />
-
+      <Footer data={footer}/>
       {/* eliminar  */}
       <span className='credito'>Diseñado por Codefex · codefex.site</span>
       {/* eliminar */}

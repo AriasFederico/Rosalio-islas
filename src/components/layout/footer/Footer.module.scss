@@ -1,0 +1,52 @@
+.footer {
+    background-color: #1d1c1d;
+    padding: $space-6 0;
+    color: $white;
+
+
+    .container {
+        max-width: 1240px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 $space-2;
+    }
+    
+    .logo {
+        font-size: $font-xl;
+        font-weight: 700;
+    }
+
+    .rrss {
+        display: flex;
+        gap: $space-1;
+    }
+
+    .icon {
+        border: 1px solid $color-border;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        padding: $space-1;
+        border-radius: 50%;
+        transition: $transition-normal;
+
+        &:hover {
+            background-color: $white;
+            color: $color-primary;
+        }
+    }
+
+    .copyright {
+        font-size: $font-sm;
+        color: $color-border;
+        margin-top: $space-4;
+        padding: $space-4 0 0;
+        border-top: 1px solid $color-border;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+    }
+}

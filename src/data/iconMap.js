@@ -3,6 +3,8 @@ import {
   BsArrowUpShort,
   BsCircle,
   BsClock,
+  BsFacebook,
+  BsInstagram,
   BsPhone,
   BsPin,
   BsPlusLg,
@@ -23,4 +25,7 @@ export const iconMap = {
   clock: BsClock,
   location: BsPin,
   tel: BsPhone,
+
+  instagram: BsInstagram,
+  facebook: BsFacebook,
 };

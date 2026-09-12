@@ -415,8 +415,8 @@ export const landing_data = {
     cta: { icon: 'message', label: 'Reserva de turnos', variant: '' },
 
     rrss: [
-      { icon: 'facebook', href: '' },
-      { icon: 'instagram', href: '' },
+      { icon: 'facebook', href: '#' },
+      { icon: 'instagram', href: '#' },
     ],
 
     copyright: `© 2026 ${clinicInfo.name}. Todos los derechos reservados.`,

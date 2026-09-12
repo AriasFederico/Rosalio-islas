@@ -2,6 +2,7 @@ export * from './about/AboutSection';
 export * from './coverage_section/Coverage';
 export * from './cta_section/CtaSection';
 export * from './faq_section/FaqSection';
+export * from './footer/Footer';
 export * from './header/Header';
 export * from './hero_layout/HeroLayout';
 export * from './hero_section/HeroSection';
