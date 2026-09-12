@@ -1,5 +1,5 @@
 .ctaSection {
-    padding: $space-8;
+    padding: $space-9 0;
     background-image: url('https://images.unsplash.com/photo-1635822727210-c083ef9f0e10?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,13 +24,20 @@
     }
     
     .container {
+        max-width: 1240px;
         width: 100%;
-        @include container();
-    }
+        margin: 0 auto;
+        padding: 0 $space-2;
 
+        @include desktop(){
+            padding: 0;
+        }
+    }
+    
     .content {
-        z-index:200;
         position: relative;
+        width: 100%;
+        z-index:200;
         color: $white;
 
         .text {
@@ -41,8 +48,13 @@
             margin-top: $space-3;
             color: $foreground;
             display: flex;
+            flex-direction: column;
             gap: $space-1;
-            align-items: center;
+            
+            @include tablet(){
+                align-items: center;
+                flex-direction: row;
+            }
         }
     }
     

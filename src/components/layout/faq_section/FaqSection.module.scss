@@ -1,0 +1,78 @@
+.items {
+    margin-top: $space-4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+}
+
+.title {
+    text-align: center;
+}
+
+
+.faq {
+    // border: 1px solid $color-border;
+    overflow: hidden;
+    transition: border-color .3s ease;
+    // border-top: 1px solid red;
+    border-bottom: 1px solid $color-border;
+    padding: $space-2 0;
+    max-width: 900px;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: $space-2;
+}
+
+.icon {
+    transition: $transition-normal;
+    background-color: $bg-soft;
+    width: 2rem;
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+.quest {
+    font-weight: 500;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 0fr;
+    opacity: 0;
+    transition: grid-template-rows 0.3s ease-out, opacity 0.2s ease-out;
+}
+
+.content {
+    overflow: hidden;
+
+    .response {
+        margin: 0;
+        color: #555;    
+        font-size: $font-sm;
+        margin-top: $space-2;
+        padding: 0 $space-2;
+    }
+}
+
+
+// si funciona no lo toques xd
+
+.open {
+
+    .wrapper {
+        grid-template-rows: 1fr;
+        opacity: 1;
+    }
+
+    .icon {
+        transition: $transition-normal;
+        transform: rotate(135deg);
+        background-color: $bg-dark;
+        color: $white;
+    }
+}

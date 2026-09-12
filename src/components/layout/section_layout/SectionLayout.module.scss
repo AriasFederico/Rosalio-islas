@@ -10,6 +10,7 @@
 
     @include desktop(){
         .container {
+            padding: 0;
             display: flex;
             align-items: center;
             // cambiar justify en caso de ser necesario

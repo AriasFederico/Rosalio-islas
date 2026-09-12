@@ -8,11 +8,6 @@
     &:hover {
         transform: translateY(-20px);
         box-shadow: $shadow-md;
-
-        .iconContainer {
-            color: $white;
-            background-color: $color-primary;
-        }
     }
 
     

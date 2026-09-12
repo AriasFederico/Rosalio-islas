@@ -4,8 +4,8 @@
 const clinicInfo = {
   name: 'lumen',
   phone_number: '5491234567',
-  hours: '',
-  location: '',
+  hours: 'Lun a Vie: 9-20 hs · Sáb: 9-13 hs',
+  location: 'Dirección de referencia 1234, Ciudad',
 };
 
 const { name, phone_number } = clinicInfo;
@@ -317,7 +317,7 @@ export const landing_data = {
         variant: 'secondary',
       },
       {
-        icon: 'message',
+        icon: '',
         label: 'Ubicación',
         variant: '',
       },
@@ -329,40 +329,96 @@ export const landing_data = {
 
     items: [
       {
+        id: 1,
         quest: 'Pregunta de referencia',
         response:
           'Respuesta de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       },
       {
+        id: 2,
         quest: 'Pregunta de referencia',
         response:
           'Respuesta de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       },
       {
+        id: 3,
         quest: 'Pregunta de referencia',
         response:
           'Respuesta de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       },
       {
+        id: 4,
         quest: 'Pregunta de referencia',
         response:
           'Respuesta de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       },
       {
+        id: 5,
         quest: 'Pregunta de referencia',
         response:
           'Respuesta de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       },
       {
+        id: 6,
         quest: 'Pregunta de referencia',
         response:
           'Respuesta de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       },
       {
+        id: 7,
         quest: 'Pregunta de referencia',
         response:
           'Respuesta de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       },
     ],
+  },
+
+  coverage_section: {
+    title: 'Obras sociales y prepagas',
+    items: [
+      'OSDE',
+      'OMINT',
+      'OSPJN',
+      'SANCOR',
+      'AVALIAN',
+      'AMFFA',
+      'OPDEA',
+      'OSMISS',
+    ],
+  },
+
+  location_section: {
+    title: 'Dónde estamos',
+    subtitle: 'Texto de referencia — reemplazá con la dirección real.',
+    coordenates: `34°56'21.2"S 57°58'26.9"W`,
+    items: [
+      {
+        icon: 'location',
+        name: 'Dirección',
+        info: clinicInfo.location,
+      },
+      {
+        icon: 'clock',
+        name: 'Horarios',
+        info: clinicInfo.hours,
+      },
+      { icon: 'tel', name: 'Teléfono', info: clinicInfo.phone_number },
+    ],
+    ctas: [
+      { label: 'Google Maps', href: '#', variant: 'secondary' },
+      { label: 'Reservar turno', href: '#', variant: 'primary' },
+    ],
+  },
+
+  footer: {
+    logo: clinicInfo.name,
+    cta: { icon: 'message', label: 'Reserva de turnos', variant: '' },
+
+    rrss: [
+      { icon: 'facebook', href: '' },
+      { icon: 'instagram', href: '' },
+    ],
+
+    copyright: `© 2026 ${clinicInfo.name}. Todos los derechos reservados.`,
   },
 };

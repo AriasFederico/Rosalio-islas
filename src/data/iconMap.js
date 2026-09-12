@@ -1,8 +1,11 @@
 import {
   BsArrowDownShort,
   BsArrowUpShort,
-  BsCalendar2Date,
   BsCircle,
+  BsClock,
+  BsPhone,
+  BsPin,
+  BsPlusLg,
   BsWhatsapp,
 } from 'react-icons/bs';
 
@@ -15,4 +18,9 @@ export const iconMap = {
 
   arrowDown: BsArrowDownShort,
   arrowUp: BsArrowUpShort,
+  arrowFaq: BsPlusLg,
+
+  clock: BsClock,
+  location: BsPin,
+  tel: BsPhone,
 };
