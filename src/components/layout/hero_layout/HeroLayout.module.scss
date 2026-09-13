@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   position: relative;
+  min-height: 90vh;
   
   &.light {background-color: $white;}
   &.soft {background-color: $bg-soft;}
