@@ -4,13 +4,13 @@ import {
   Coverage,
   CtaSection,
   FaqSection,
+  Footer,
   Header,
   HeroSection,
   LocationSection,
   ReviewsSection,
   ServicesSection,
   TeamSection,
-  Footer
 } from './components/layout/';
 import { landing_data } from './data/data';
 
@@ -26,7 +26,7 @@ function App() {
     faq_section,
     coverage_section,
     location_section,
-    footer
+    footer,
   } = landing_data;
 
   return (
@@ -41,9 +41,9 @@ function App() {
       <CtaSection data={cta_section} />
       <Coverage data={coverage_section} />
       <LocationSection data={location_section} />
-      <Footer data={footer}/>
+      <Footer data={footer} />
       {/* eliminar  */}
-      <span className='credito'>Diseñado por Codefex · codefex.site</span>
+      <span className='credito'>Diseñado por Codefex</span>
       {/* eliminar */}
     </div>
   );
