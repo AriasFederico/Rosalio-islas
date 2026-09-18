@@ -1,6 +1,6 @@
 .card {
     background-color: $white;
-    padding: $space-3;
+    padding: $space-2;
     border-radius: $radius-sm;
     margin-bottom: $space-2;
     transition: $transition-normal;
@@ -24,12 +24,17 @@
         border-radius: $radius-sm;
     }
 
-    .title, .desc {
+
+    .title {
         margin-top: $space-2;
     }
 
+    .desc {
+        margin-top: $space-1;
+    }
+
     .cta {
-        margin-top: $space-3;
+        margin-top: $space-1;
     }
 
     .desc {
