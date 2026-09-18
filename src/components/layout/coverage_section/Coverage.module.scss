@@ -1,4 +1,5 @@
 .container {
+    background-color: $bg-soft;
     width: 100%;
     border-top: 1px solid $color-border;
     padding: $space-9 0;
@@ -11,7 +12,6 @@
 
 .title {
     text-align: center;
-    color: $foreground-muted;
 }
 
 .items {

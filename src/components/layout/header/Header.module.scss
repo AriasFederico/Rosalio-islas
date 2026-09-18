@@ -30,7 +30,6 @@
   .nav {
     max-height: 0;
     overflow: hidden;
-    color: $white;
     
     @include desktop(){
       max-height: auto;
@@ -62,7 +61,7 @@
   .link {
     font-size: $font-sm;
     font-weight: 500;
-    // color: $white;
+    color: $color-primary
   }
 
 
@@ -81,7 +80,7 @@
   }
 
   .burger {    
-    color: $color-primary;
+    color: $white;
 
     .icon {
       width: 1.7rem;

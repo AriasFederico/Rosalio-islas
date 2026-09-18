@@ -34,7 +34,7 @@ export const landing_data = {
       label: 'Reserva de turnos',
       href: '#',
       size: 'sm',
-      variant: '',
+      variant: 'secondary',
     },
   },
 
