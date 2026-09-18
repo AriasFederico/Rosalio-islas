@@ -30,6 +30,7 @@
   .nav {
     max-height: 0;
     overflow: hidden;
+    color: $white;
     
     @include desktop(){
       max-height: auto;
@@ -48,8 +49,8 @@
     gap: $space-4;
     max-height: 500px;
     padding: 2rem 0;
-    background-color: $white;
-    color: $white;
+    background-color: $color-primary;
+    color: $color-primary;
     // border-bottom: 1px solid $color-border;
     transition: $transition-normal;
     position: absolute;
@@ -61,7 +62,7 @@
   .link {
     font-size: $font-sm;
     font-weight: 500;
-    color: $color-primary
+    color: $white;
   }
 
 
