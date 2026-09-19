@@ -1,16 +1,23 @@
 .container {
+    @include desktop(){
+        padding-top: $space-6;
+    }
 
+    .badge {
+        background-color: $bg-soft;
+        padding: .5rem 1rem;
+        color: $color-primary;
+    }
     .content {
         color: $white;
-
     }
 
-    .items {
-        margin-top: $space-4;
+    .subtitle {margin-top: $space-2;}
 
-        @include desktop(){
-            display: flex;
-            gap: $space-2;
-        }
+    .cta {
+        margin-top: $space-2;
+        display: flex;
+        gap: $space-1;
     }
+
 }

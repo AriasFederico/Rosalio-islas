@@ -1,27 +1,23 @@
-import { Badge, Card } from '../../ui';
+import { Badge, ButtonCta } from '../../ui';
 import { HeroLayout } from '../';
 import styles from './HeroSection.module.scss';
 
 export const HeroSection = ({ data }) => {
-  const { badge, title, cards } = data;
+  const { badge, title } = data;
   return (
     <HeroLayout bgImage>
       <div className={styles.container}>
         <div className={styles.content}>
-          <Badge text={badge} />
+          <Badge text={badge} className={styles.badge} />
           <h1 className={styles.title}>{title}</h1>
-        </div>
-        <div className={styles.items}>
-          {cards?.map(({ id, icon, title, text, cta, delay = { delay } }) => (
-            <Card
-              key={id}
-              icon={icon}
-              title={title}
-              text={text}
-              cta={cta}
-              delay={delay}
-            />
-          ))}
+          <p className={styles.subtitle}>
+            Descripción de referencia. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+          </p>
+          <div className={styles.cta}>
+            <ButtonCta icon={'message'} label={'Reserva de turnos'} variant='secondary' />
+            <ButtonCta label={'Servicios'} variant='primary' />
+          </div>
         </div>
       </div>
     </HeroLayout>

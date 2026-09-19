@@ -34,43 +34,20 @@ export const landing_data = {
       label: 'Reserva de turnos',
       href: '#',
       size: 'sm',
-      variant: '',
+      variant: 'secondary',
     },
   },
 
   hero: {
     badge: 'Texto de referencia para el badge.',
     title: 'Título de tu consultorio.',
-    cards: [
-      {
-        id: 1,
-        icon: 'icon',
-        title: 'Titulo de la tarjeta',
-        text: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        cta: {
-          icon: '',
-          label: 'Texto del botón',
-          href: '#',
-          variant: 'secondary',
-        },
-        // delay de la animacion motion
-        delay: '.15',
-      },
-      {
-        id: 2,
-        icon: 'icon',
-        title: 'Titulo de la tarjeta',
-        text: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        cta: {
-          icon: '',
-          label: 'Texto del botón',
-          href: '#',
-          variant: 'secondary',
-        },
-        // delay de la animacion motion
-        delay: '.25',
-      },
-    ],
+    cta: {
+      icon: 'message',
+      label: 'Reserva de turnos',
+      href: '#',
+      size: '',
+      variant: 'secondary',
+    },
   },
 
   services: {

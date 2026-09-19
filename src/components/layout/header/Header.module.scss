@@ -1,12 +1,12 @@
 .header {
-  // position: fixed;
+  z-index: 1600;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 500;
-  padding: $space-2 $space-2;
-  background-color: $color-primary;
-  position: relative;
+  padding: $space-2;
+  background-color: $bg-soft;
+
 
   .container {
     max-width: 1240px;
@@ -20,7 +20,7 @@
   .logo {
     font-size: $font-xl;
     font-weight: 700;
-    color: $white;
+    color: $color-primary;
 
     &::after {
       // content: ' asd';
@@ -49,7 +49,7 @@
     gap: $space-4;
     max-height: 500px;
     padding: 2rem 0;
-    background-color: $color-primary;
+    background-color: $bg-soft;
     color: $color-primary;
     // border-bottom: 1px solid $color-border;
     transition: $transition-normal;
@@ -62,7 +62,7 @@
   .link {
     font-size: $font-sm;
     font-weight: 500;
-    color: $white;
+    color: $foreground;
   }
 
 
@@ -81,7 +81,7 @@
   }
 
   .burger {    
-    color: $white;
+    color: $color-primary;
 
     .icon {
       width: 1.7rem;

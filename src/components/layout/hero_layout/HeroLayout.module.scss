@@ -27,7 +27,7 @@
       /* El gradiente: empieza sólido, se aclara al medio y se vuelve muy transparente al final */
       background: linear-gradient(
         // to right, 
-        rgba($bg-dark, 0.35) 100%   /* to-background/40 */
+        rgba($bg-dark, .4) 100%   /* to-background/40 */
         );
       }
     }
