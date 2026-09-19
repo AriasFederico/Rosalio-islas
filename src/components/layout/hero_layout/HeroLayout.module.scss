@@ -1,11 +1,11 @@
 .heroLayout {
   // --- CONFIGURACIÓN PARA MOBILE ---
-  padding: $space-9 0;
+  // padding: $space-9 0;
   width: 100%;
   display: flex;
   align-items: center;
   position: relative;
-  min-height: 90vh;
+  min-height: 100vh;
   
   &.light {background-color: $white;}
   &.soft {background-color: $bg-soft;}
