@@ -39,7 +39,7 @@ export const landing_data = {
   },
 
   hero: {
-    badge: 'Texto de referencia para el badge.',
+    badge: 'Texto de referencia para el badge',
     title: 'Título de tu consultorio.',
     cta: {
       icon: 'message',
