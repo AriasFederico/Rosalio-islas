@@ -29,7 +29,8 @@ export const Header = () => {
       <div className={styles.container}>
         {/* ------------------------- */}
         <a href={'#'} className={styles.logo} onClick={() => setIsOpen(false)}>
-          {logo.text}
+          <img src={logo.src} alt={logo.src} className={styles.logoImagen} />
+          <p className={styles.logoText}>{logo.text}</p>
         </a>
         {/* ------------------------- */}
 
@@ -52,6 +53,7 @@ export const Header = () => {
               onClick={() => setIsOpen(false)}
               label={cta.label}
               variant={cta.variant}
+              href={cta.href}
             />
           </div>
         </nav>
@@ -64,6 +66,7 @@ export const Header = () => {
             icon={cta.icon}
             label={cta.label}
             variant={cta.variant}
+            href={cta.href}
           />
         </div>
         {/* ------------------------- */}

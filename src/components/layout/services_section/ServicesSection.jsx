@@ -12,7 +12,7 @@ export const ServicesSection = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   // Mostramos 6 o todos según el estado
-  const visibleItems = isExpanded ? items : items?.slice(0, 6);
+  const visibleItems = isExpanded ? items : items?.slice(0, 4);
 
   const toggleShowMore = () => {
     setIsExpanded((prev) => !prev);

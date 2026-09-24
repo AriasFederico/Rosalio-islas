@@ -1,4 +1,7 @@
-nombre del consultorio:             lumen
-numero whatsapp:                    5491234567
+nombre del consultorio:             FIR FISIOTERAPIA
+segundo nombre:                     by Rosario Islas
+
+numero whatsapp:                    +5217711853601
+
 horarios:                           Lun a Vie: 9-20 hs · Sáb: 9-13 hs
-ubicacion:                          Dirección de referencia 1234, Ciudad
+ubicacion:                          Maple #141 Col. el Saucillo , Pachuca, Mexico, 42180

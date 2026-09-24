@@ -4,9 +4,9 @@ import styles from './TeamSection.module.scss';
 import { team_data } from './team_data';
 
 export const TeamSection = () => {
-  const { title, subtitle, items } = team_data;
+  const { title, subtitle, items, about } = team_data;
   return (
-    <SectionLayout>
+    <SectionLayout id={'team'}>
       <div className={styles.container}>
         <div className={styles.header}>
           <h2>{title}</h2>
@@ -24,6 +24,11 @@ export const TeamSection = () => {
               cta={cta}
             />
           ))}
+          <div className={styles.about}>
+            {
+              about?.map((item, index) => (<p key={index}>{item}</p>))
+            }
+          </div>
         </div>
       </div>
     </SectionLayout>

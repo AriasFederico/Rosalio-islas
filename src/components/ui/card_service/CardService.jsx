@@ -16,14 +16,14 @@ export const CardService = ({ icon, title, desc, cta, delay }) => {
       <div className={styles.iconContainer}>{icon && <Icon size={26} />}</div>
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.desc}>{desc}</p>
-      <div className={styles.cta}>
+      {/* <div className={styles.cta}>
         <ButtonCta
           icon={cta.icon}
           label={cta.label}
           size='sm'
           variant={cta.variant}
         />
-      </div>
+      </div> */}
     </motion.div>
   );
 };

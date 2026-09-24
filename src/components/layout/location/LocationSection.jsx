@@ -7,7 +7,7 @@ import { location_data } from './location_data';
 export const LocationSection = () => {
     const { coordenates, title, subtitle, items, ctas } = location_data;
     return (
-        <SectionLayout>
+        <SectionLayout id={'location'}>
             <div className={styles.container}>
                 <div className={styles.header}>
                     <h2 className={styles.title}>{title}</h2>

@@ -21,10 +21,10 @@ function App() {
       <ServicesSection />
       <TeamSection />
       <AboutSection />
-      <ReviewsSection />
+      {/* <ReviewsSection /> */}
       <FaqSection />
       <CtaSection />
-      <Coverage />
+      {/* <Coverage /> */}
       <LocationSection />
       <Footer />
       {/* eliminar  */}

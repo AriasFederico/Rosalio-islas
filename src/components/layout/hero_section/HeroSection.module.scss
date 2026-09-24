@@ -12,7 +12,11 @@
         color: $white;
     }
 
-    .subtitle {margin-top: $space-2;}
+    .title {
+        max-width: 660px;
+    }
+
+    .subtitle {margin-top: $space-2; max-width: 660px;}
 
     .cta {
         margin-top: $space-2;

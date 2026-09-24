@@ -5,7 +5,7 @@ import styles from './HeroSection.module.scss';
 import { hero_data } from './hero_data';
 
 export const HeroSection = () => {
-  const { badge, title, subtitle } = hero_data;
+  const { badge, title, subtitle, cta } = hero_data;
   return (
     <HeroLayout bgImage>
       <div className={styles.container}>
@@ -37,11 +37,12 @@ export const HeroSection = () => {
             transition={{ duration: 0.5, delay: 0.45 }}
           >
             <ButtonCta
-              icon={'message'}
-              label={'Reserva de turnos'}
-              variant='secondary'
+              icon={cta.icon}
+              label={cta.label}
+              variant={cta.variant}
+              href={cta.href}
             />
-            <ButtonCta label={'Servicios'} variant='primary' />
+            <ButtonCta label={'Servicios'} variant='primary' href={'#services'} />
           </motion.div>
         </div>
       </div>

@@ -1,48 +1,28 @@
+import profesional from '../../../assets/profesional.png';
+import { buildWaLink } from '../../../utils/message';
 export const team_data = {
-  title: 'Profesionales',
-  subtitle: 'Subtítulo de referencia del contenido.',
+  title: 'Conoce a tu Especialista',
+  subtitle: 'Pasión, preparación y calidez humana al servicio de tu salud.',
   items: [
     {
-      id: 2,
+      id: 1,
       image: {
-        src: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80',
-        alt: 'Profesional',
+        src: profesional,
+        alt: 'Lic. Rosario Islas - Especialista en Fisioterapia y Neurorehabilitación',
       },
-      name: 'Lic. Nombre Apellido',
-      speciality: 'Rol del profesional',
+      name: 'Lic. Rosario Islas',
+      speciality: 'Fisioterapia y Neurorehabilitación',
       cta: {
         icon: 'message',
         label: 'Reservar turno',
-        href: '#',
+        href: buildWaLink('Hola Rosario! quisiera reservar un turno.'),
       },
     },
-    {
-      id: 3,
-      image: {
-        src: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80',
-        alt: 'Profesional',
-      },
-      name: 'Lic. Nombre Apellido',
-      speciality: 'Rol del profesional',
-      cta: {
-        icon: 'message',
-        label: 'Reservar turno',
-        href: '#',
-      },
-    },
-    {
-      id: 4,
-      image: {
-        src: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&q=80',
-        alt: 'Profesional',
-      },
-      name: 'Lic. Nombre Apellido',
-      speciality: 'Rol del profesional',
-      cta: {
-        icon: 'message',
-        label: 'Reservar turno',
-        href: '#',
-      },
-    },
+  ],
+
+  about: [
+    '¡Hola! Soy Rosario Islas, Licenciada en Terapia Física por la UPP Hidalgo y Maestra en Neurorehabilitación egresada de CMUCH. Cuento con experiencia en los ámbitos deportivo, pediátrico y neurológico, habiendo trabajado tanto en el sistema de salud público como en el privado.',
+    'Actualmente combino la docencia a nivel licenciatura con la atención particular en consultorio y a domicilio, manteniéndome siempre actualizada para ofrecerte la mejor calidad de atención.',
+    'Me considero una profesional preparada, alegre, empática y honesta que ama profundamente su trabajo. Creo que la recuperación física también necesita un ambiente ameno, por lo que mis terapias incluyen un espacio cercano de charla y confianza en cada sesión 😊.',
   ],
 };

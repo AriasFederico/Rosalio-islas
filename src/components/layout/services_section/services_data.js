@@ -1,14 +1,15 @@
 export const services_data = {
-  title: 'Servicios',
-  subtitle: 'Subtítulo de referencia del contenido.',
+  title: 'Nuestros Servicios Especializados',
+  subtitle:
+    'Ofrecemos atención integral y personalizada en consultorio y a domicilio para responder a las necesidades específicas de cada paciente.',
 
   // cards
   items: [
     {
-      icon: 'icon',
+      icon: 'brain',
       id: 1,
-      title: 'Título del servicio',
-      desc: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Fisioterapia Neurológica',
+      desc: 'Rehabilitación especializada para recuperar el movimiento y la independencia. Atendemos secuelas de EVC (hemiplejía), lesión muscular, parálisis facial, neuralgias y neuropatías.',
       cta: {
         icon: 'message',
         label: 'Consultar por este servicio',
@@ -17,10 +18,10 @@ export const services_data = {
       delay: '.15',
     },
     {
-      icon: 'icon',
+      icon: 'activity',
       id: 2,
-      title: 'Título del servicio',
-      desc: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Fisioterapia Deportiva',
+      desc: 'Tratamiento y recuperación de lesiones físicas. Incluye descarga muscular, desgarros, esguinces, tendinopatías, codo de tenista o golfista, lumbalgias, dorsalgias y cervicalgias.',
       cta: {
         icon: 'message',
         label: 'Consultar por este servicio',
@@ -29,10 +30,10 @@ export const services_data = {
       delay: '.15',
     },
     {
-      icon: 'icon',
+      icon: 'heart',
       id: 3,
-      title: 'Título del servicio',
-      desc: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Programas de Rehabilitación',
+      desc: 'Planes enfocados en la prevención de lesiones, estabilidad articular, estimulación temprana, cuidados paliativos e higiene de columna.',
       cta: {
         icon: 'message',
         label: 'Consultar por este servicio',
@@ -41,10 +42,10 @@ export const services_data = {
       delay: '.15',
     },
     {
-      icon: 'icon',
+      icon: 'user',
       id: 4,
-      title: 'Título del servicio',
-      desc: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Fisioterapia Geriátrica',
+      desc: 'Acompañamiento especializado para el adulto mayor centrado en la prevención de caídas, fortalecimiento muscular, movilizaciones en casa, activación física y atrofia muscular.',
       cta: {
         icon: 'message',
         label: 'Consultar por este servicio',
@@ -53,10 +54,10 @@ export const services_data = {
       delay: '.25',
     },
     {
-      icon: 'icon',
+      icon: 'bone',
       id: 5,
-      title: 'Título del servicio',
-      desc: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Fisioterapia Traumatológica',
+      desc: 'Recuperación de cirugías (columna, cadera, rodilla), secuelas de fracturas y luxaciones, desgaste articular, síndrome del túnel del carpo, De Quervain, manguito rotador y hombro congelado.',
       cta: {
         icon: 'message',
         label: 'Consultar por este servicio',
@@ -65,59 +66,16 @@ export const services_data = {
       delay: '.25',
     },
     {
-      icon: 'icon',
+      icon: 'smile',
       id: 6,
-      title: 'Título del servicio',
-      desc: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Terapia Ocupacional',
+      desc: 'Sesiones enfocadas en mejorar la autonomía diaria del paciente mediante integración sensorial, entrenamiento en actividades de la vida diaria y manejo de prótesis funcional.',
       cta: {
         icon: 'message',
         label: 'Consultar por este servicio',
         href: '#',
       },
       delay: '.25',
-    },
-
-    // MOTRAR MAS ///////////////////////////////////////////////////////////////////////////////////
-
-    {
-      icon: 'icon',
-      id: 7,
-      title: 'Título del servicio',
-      desc: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      cta: {
-        icon: 'message',
-        label: 'Consultar por este servicio',
-        href: '#',
-        variant: 'tertiary',
-      },
-      delay: '.15',
-    },
-    {
-      icon: 'icon',
-      id: 8,
-      title: 'Título del servicio',
-      desc: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      cta: {
-        icon: 'message',
-        label: 'Consultar por este servicio',
-        href: '#',
-        variant: 'tertiary',
-      },
-      delay: '.15',
-    },
-    {
-      icon: 'icon',
-      id: 9,
-      title: 'Título del servicio',
-      desc: 'Descripción de referencia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      cta: {
-        icon: 'message',
-        label: 'Consultar por este servicio',
-        href: '#',
-        variant: 'tertiary',
-      },
-      delay: '.15',
     },
   ],
-  cta: { icon: '', label: 'Mostrar más', variant: 'tertiary' },
 };

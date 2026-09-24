@@ -1,3 +1,4 @@
+import { BiBone } from 'react-icons/bi';
 import {
   BsArrowDownShort,
   BsArrowUpShort,
@@ -12,6 +13,7 @@ import {
 } from 'react-icons/bs';
 
 import { FcGoogle } from 'react-icons/fc';
+import { LuActivity, LuBrain, LuHeart, LuSmile, LuUser } from 'react-icons/lu';
 
 export const iconMap = {
   icon: BsCircle, // delete
@@ -28,4 +30,12 @@ export const iconMap = {
 
   instagram: BsInstagram,
   facebook: BsFacebook,
+
+  // services:
+  brain: LuBrain,
+  activity: LuActivity,
+  heart: LuHeart,
+  user: LuUser,
+  bone: BiBone,
+  smile: LuSmile,
 };
