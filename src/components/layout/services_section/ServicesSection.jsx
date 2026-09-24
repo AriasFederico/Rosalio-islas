@@ -3,9 +3,10 @@ import { useState } from 'react';
 import { ButtonCta, CardService } from '../../ui';
 import { SectionLayout } from '../';
 import styles from './ServicesSection.module.scss';
+import { services_data } from './services_data';
 
-export const ServicesSection = ({ data }) => {
-  const { title, subtitle, items } = data;
+export const ServicesSection = () => {
+  const { title, subtitle, items } = services_data;
 
   // Estado para alternar entre ver los primeros 6 o ver los 9
   const [isExpanded, setIsExpanded] = useState(false);

@@ -2,9 +2,10 @@ import { iconMap } from '../../../data/iconMap';
 import { ButtonCta, MapComponent } from '../../ui';
 import { SectionLayout } from '../';
 import styles from './LocationSection.module.scss';
+import { location_data } from './location_data';
 
-export const LocationSection = ({ data }) => {
-    const { coordenates, title, subtitle, items, ctas } = data;
+export const LocationSection = () => {
+    const { coordenates, title, subtitle, items, ctas } = location_data;
     return (
         <SectionLayout>
             <div className={styles.container}>

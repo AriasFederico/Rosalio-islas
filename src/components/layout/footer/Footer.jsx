@@ -1,13 +1,16 @@
 import { iconMap } from '../../../data/iconMap';
 import styles from './Footer.module.scss';
+import { footer_data } from './footer_data';
 
-export const Footer = ({ data }) => {
-    const { logo, cta, rrss, copyright } = data;
+export const Footer = () => {
+    const { logo, cta, rrss, copyright } = footer_data;
     return (
         <footer className={styles.footer}>
             <div className={styles.container}>
                 <div className={styles.content}>
-                    <a className={styles.logo} href='/'>{logo}</a>
+                    <a className={styles.logo} href='/'>
+                        {logo}
+                    </a>
                     <div className={styles.rrss}>
                         {rrss?.map(({ icon, href }) => {
                             const Icon = iconMap[icon];

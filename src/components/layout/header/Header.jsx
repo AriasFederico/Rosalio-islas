@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 import { BsList, BsX } from 'react-icons/bs';
-import { iconMap } from '../../../data/iconMap';
 import { ButtonCta } from '../../ui/button_cta/ButtonCta'; // importar donde esté
 import styles from './Header.module.scss';
+import { header_data } from './header_data';
 
-export const Header = ({ data }) => {
-  const { nav_links, logo, cta } = data;
+export const Header = () => {
+  const { nav_links, logo, cta } = header_data;
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
   const BurgerIcon = isOpen ? BsX : BsList;

@@ -1,10 +1,10 @@
-import { AnimatePresence, motion } from 'framer-motion';
 import { useState } from 'react';
 import { iconMap } from '../../../data/iconMap';
 import { SectionLayout } from '../';
 import styles from './FaqSection.module.scss';
+import { faq_data } from './faq_data';
 
-export const FaqSection = ({ data }) => {
+export const FaqSection = () => {
     const [activeId, setActiveId] = useState(null);
 
     const toggleFAQ = (id) => {
@@ -12,7 +12,7 @@ export const FaqSection = ({ data }) => {
     };
 
     const Icon = iconMap.arrowFaq;
-    const { title, items } = data;
+    const { title, items } = faq_data;
 
     return (
         <SectionLayout>
@@ -24,8 +24,15 @@ export const FaqSection = ({ data }) => {
                         const isOpen = activeId === item.id;
 
                         return (
-                            <div key={item.id} className={`${styles.faq} ${isOpen ? styles.open : ''}`}>
-                                <button onClick={() => toggleFAQ(item.id)} type='button' className={styles.button}>
+                            <div
+                                key={item.id}
+                                className={`${styles.faq} ${isOpen ? styles.open : ''}`}
+                            >
+                                <button
+                                    onClick={() => toggleFAQ(item.id)}
+                                    type='button'
+                                    className={styles.button}
+                                >
                                     <Icon size={22} className={styles.icon} />
                                     <h3 className={styles.quest}>{item.quest}</h3>
                                 </button>

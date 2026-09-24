@@ -1,6 +1,7 @@
 import styles from './Coverage.module.scss'
-export const Coverage = ({ data }) => {
-    const { title, items } = data;
+import { coverage_data } from './coverage_data';
+export const Coverage = () => {
+    const { title, items } = coverage_data;
     return (
         <div className={styles.container}>
             <div className={styles.content}>

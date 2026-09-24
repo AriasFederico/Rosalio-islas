@@ -1,0 +1,4 @@
+nombre del consultorio:             lumen
+numero whatsapp:                    5491234567
+horarios:                           Lun a Vie: 9-20 hs · Sáb: 9-13 hs
+ubicacion:                          Dirección de referencia 1234, Ciudad

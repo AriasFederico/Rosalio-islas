@@ -1,9 +1,10 @@
 import { ProfesionalCard } from '../../ui';
 import { SectionLayout } from '../';
 import styles from './TeamSection.module.scss';
+import { team_data } from './team_data';
 
-export const TeamSection = ({ data }) => {
-  const { title, subtitle, items } = data;
+export const TeamSection = () => {
+  const { title, subtitle, items } = team_data;
   return (
     <SectionLayout>
       <div className={styles.container}>

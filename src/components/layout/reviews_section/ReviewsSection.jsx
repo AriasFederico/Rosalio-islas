@@ -2,18 +2,28 @@ import { BsFillStarFill } from 'react-icons/bs';
 import { Badge, ButtonCta, ReviewCard } from '../../ui';
 import { SectionLayout } from '../';
 import styles from './ReviewsSection.module.scss';
-export const ReviewsSection = ({ data }) => {
-    const { badge, title, cta, items, stars, rating, text } = data;
+import { reviews_data } from './reviews_data';
+export const ReviewsSection = () => {
+    const { badge, title, cta, items, stars, rating, text } = reviews_data;
+
     return (
         <SectionLayout bgVariant={'soft'} id={'reviews'}>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <Badge text={badge} iconLeft={'google'} iconLeftClassName={styles.iconBadge} />
+                    <Badge
+                        text={badge}
+                        iconLeft={'google'}
+                        iconLeftClassName={styles.iconBadge}
+                    />
                     <h2>{title}</h2>
                     <div className={styles.infoRating}>
                         <div className={styles.stars}>
                             {[...Array(stars)].map((_, index) => (
-                                <BsFillStarFill size={18} key={(_, index)} className={styles.starIcon} />
+                                <BsFillStarFill
+                                    size={18}
+                                    key={(_, index)}
+                                    className={styles.starIcon}
+                                />
                             ))}
                         </div>
                         <p className={styles.rating}>{rating}</p>

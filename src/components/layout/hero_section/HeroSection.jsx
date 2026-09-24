@@ -2,29 +2,40 @@ import { motion } from 'framer-motion';
 import { Badge, ButtonCta } from '../../ui';
 import { HeroLayout } from '../';
 import styles from './HeroSection.module.scss';
+import { hero_data } from './hero_data';
 
-export const HeroSection = ({ data }) => {
-  const { badge, title } = data;
+export const HeroSection = () => {
+  const { badge, title, subtitle } = hero_data;
   return (
     <HeroLayout bgImage>
       <div className={styles.container}>
         <div className={styles.content}>
           <Badge text={badge} className={styles.badge} />
-          <motion.h1 className={styles.title} initial={{ opacity: 0, y: 10 }}
+          <motion.h1
+            className={styles.title}
+            initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.15 }}>{title}</motion.h1>
-          <motion.p initial={{ opacity: 0, y: 10 }}
+            transition={{ duration: 0.5, delay: 0.15 }}
+          >
+            {title}
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.35 }} className={styles.subtitle}>
-            Descripción de referencia. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
+            transition={{ duration: 0.5, delay: 0.35 }}
+            className={styles.subtitle}
+          >
+            {subtitle}
           </motion.p>
-          <motion.div className={styles.cta} initial={{ opacity: 0, y: 10 }}
+          <motion.div
+            className={styles.cta}
+            initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.45 }}>
+            transition={{ duration: 0.5, delay: 0.45 }}
+          >
             <ButtonCta
               icon={'message'}
               label={'Reserva de turnos'}

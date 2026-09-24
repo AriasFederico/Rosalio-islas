@@ -1,8 +1,8 @@
 import { ButtonCta } from '../../ui';
 import styles from './CtaSection.module.scss';
-
-export const CtaSection = ({ data }) => {
-    const { title, text, cta } = data;
+import { cta_data } from './cta_data';
+export const CtaSection = () => {
+    const { title, text, cta } = cta_data;
     return (
         <div className={styles.ctaSection}>
             <div className={styles.container}>
